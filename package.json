@@ -1,0 +1,28 @@
+{
+  "name": "koa-template-mirror",
+  "version": "1.0.0",
+  "description": "koa",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon ./start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binperson/koa-template-mirror.git"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "binperson",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-views": "^6.1.4",
+    "pug": "^2.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/binperson/koa-template-mirror/issues"
+  },
+  "homepage": "https://github.com/binperson/koa-template-mirror#readme"
+}
